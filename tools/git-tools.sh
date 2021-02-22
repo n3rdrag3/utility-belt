@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Verify repos are updated to prevent broken packages
+sudo apt-get update
+
 # Verify Python 3 and Python 3 pip are installed
 sudo apt-get -y install python3
 sudo apt-get -y install python3-pip
