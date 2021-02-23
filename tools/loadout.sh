@@ -32,3 +32,6 @@ sudo git clone https://github.com/diego-treitos/linux-smart-enumeration.git lse
 
 # Clone PowerSploit
 sudo git clone https://github.com/PowerShellMafia/PowerSploit.git powersploit
+
+# Close pspy
+sudo git clone https://github.com/DominicBreuker/pspy.git
