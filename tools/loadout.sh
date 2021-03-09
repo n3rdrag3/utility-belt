@@ -21,17 +21,20 @@ cd /opt
 # Install AutoRecon using Python3's pip installer
 sudo python3 -m pip install git+https://github.com/Tib3rius/AutoRecon.git
 
-# Clone PEASS
+# Clone PEASS to /opt
 sudo git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git peas
 
-# Clone LinEnum
+# Clone LinEnum to /opt
 sudo git clone https://github.com/rebootuser/LinEnum.git linenum
 
-# Clone Linux Smart Enumeration
+# Clone Linux Smart Enumeration to /opt
 sudo git clone https://github.com/diego-treitos/linux-smart-enumeration.git lse
 
-# Clone PowerSploit
+# Clone PowerSploit to /opt
 sudo git clone https://github.com/PowerShellMafia/PowerSploit.git powersploit
 
-# Close pspy
+# Clone pspy to /opt
 sudo git clone https://github.com/DominicBreuker/pspy.git
+
+# Clone Search That Hash to /opt
+sudo git clone https://github.com/HashPals/Search-That-Hash.git searchthathash
