@@ -38,3 +38,6 @@ sudo git clone https://github.com/DominicBreuker/pspy.git
 
 # Clone Search That Hash to /opt
 sudo git clone https://github.com/HashPals/Search-That-Hash.git searchthathash
+
+# Clone static binaries
+sudo git clone https://github.com/andrew-d/static-binaries.git
