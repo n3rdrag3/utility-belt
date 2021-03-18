@@ -41,3 +41,6 @@ sudo git clone https://github.com/HashPals/Search-That-Hash.git searchthathash
 
 # Clone static binaries
 sudo git clone https://github.com/andrew-d/static-binaries.git
+
+# Clone Responder
+sudo git clone https://github.com/lgandx/Responder.git responder
