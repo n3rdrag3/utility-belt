@@ -8,12 +8,13 @@ sudo apt-get -y install python3
 sudo apt-get -y install python3-pip
 
 # AutoRecon supporting packages
-sudo apt-get -y install seclists curl enum4linux gobuster nbtscan nikto nmap onesixtyone oscanner smbclient smbmap smtp-user-enum snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
+sudo apt-get -y install seclists curl enum4linux feroxbuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
 # AutoRecon required Python3 modules - using apt-get installer for compatibilty
 sudo apt-get -y install python3-colorama
 sudo apt-get -y install python3-toml
 sudo apt-get -y install python3-appdirs
+sudo apt-get -y install python3-unidecode
 
 # Change to /opt to keep things clean
 cd /opt
